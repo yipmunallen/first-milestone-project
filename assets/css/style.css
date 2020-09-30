@@ -11,6 +11,18 @@ body{
   color: #777777;
 }
 
+h2{
+    text-transform: uppercase;
+}
+
+.section-title{
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ------NAV BAR ------ */
+
 #logo{
    font-family: Roboto;
    color: #777777;
@@ -37,7 +49,7 @@ body{
   background-size: cover;
 }
 
-#hero-outer{
+#hero-section{
   height: 700px;
   width: 100%;
   overflow: hidden;
@@ -46,44 +58,37 @@ body{
 
 /* ------ COVER TEXT ------ */
 
-#cover-text, cover-text h2{
-  color: #ffffff;
-}
+#hero-text{
+    color: #ffffff;
+    font-size: 100%;
+    font-family: Roboto;
+    letter-spacing: 3px;
+    text-align: center;
 
-#cover-text{
-  font-size: 100%;
-  font-family: Roboto;
-  letter-spacing: 3px;
-  text-align: center;
+    width: 350px;
+    height: 200px;
 
-  width: 350px;
-  height: 200px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    padding-right: 25px;
 
-  padding-top: 30px;
-  padding-left: 25px;
-  padding-bottom: 30px;
-  padding-right: 25px;
+    background-color: #94b5ae;
 
-  background-color: #94b5ae;
-
-  position: absolute; 
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
+    position: absolute; 
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
 
 }
 
-#cover-text h2{
-  text-transform: uppercase;
-}
-
-#cover-text h3{
+#hero-text h3{
   font-size: 120%; 
   padding-top: 20px;
 }
 
-#cover-text #resume-text{
+#hero-text #resume-text{
   border-top: 0.5px solid #ffffff;
   padding-top: 10px;
   font-style: italic;
