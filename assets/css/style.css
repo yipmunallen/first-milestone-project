@@ -19,6 +19,7 @@ h2{
     font-family: Roboto;
     text-align: center;
     margin-top: 50px;
+    border-bottom: 2px solid #94b5ae;
 }
 
 /* ------NAV BAR ------ */
@@ -153,7 +154,7 @@ hr{
   font-size: 280%;
 }
 
-#circle-container{
+#profile-circle{
   width: 300px;
   height: 300px;
   padding: 30px;
@@ -164,12 +165,16 @@ hr{
   margin: 0 auto;
 }
 
-#circle-cover-bg{
-  background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
-  height: 100%;
+#profile-photo{
+  background: url("../images/profilephoto.png") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+    height: 100%;
   border-radius: 50%;
 
 }
+
+/* ------ EXPERIENCE SECTION ------ */
 
 #times{
   background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png");
