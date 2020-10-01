@@ -18,9 +18,17 @@ h2{
 .section-title{
     font-family: Roboto;
     text-align: center;
-    margin-top: 50px;
-    border-bottom: 2px solid #94b5ae;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border-bottom: 2px solid #94b5ae; */
+    text-decoration: underline;
+    text-decoration-color: #94b5ae;
 }
+
+.container{
+    max-width: 720px;
+}
+
 
 /* ------NAV BAR ------ */
 
@@ -85,94 +93,45 @@ h2{
 }
 
 #hero-text h3{
-  font-size: 120%; 
-  padding-top: 20px;
+    font-size: 120%; 
+    padding-top: 20px;
 }
 
 #hero-text #resume-text{
-  border-top: 0.5px solid #ffffff;
-  padding-top: 10px;
-  font-style: italic;
+    border-top: 0.5px solid #ffffff;
+    padding-top: 10px;
+    font-style: italic;
 }
 
 /* ------ ABOUT SECTION ------ */
 
-#club-ethos{
-  height: 600px;
-}
-
-#left-about{
-  padding-top:30px;
-  width: 33%;
-  float: left;
-}
-
-#right-about{
-  padding-top:30px;
-  width: 33%;
-  float: right;
-}
-
-#center-about{
-  width: 33%;
-  margin: 0 auto;
-}
-
-hr{
-  border-top: 1px solid #777777;
-  width: 100%;
-  margin: 5px;
-}
-
-.left-about-heading{
-  width: 50%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.right-about-heading{
-  width: 50%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.right-about-heading h2{
-  text-align: right;
-}
-
-.right-about-heading p{
-  text-align: right;
-}
-
-#welcome{
-  text-align: center;
-  margin: 20px 0;
-  font-size: 280%;
-}
-
-#profile-circle{
-  width: 300px;
-  height: 300px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #cccccc; 
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
+#profile-border{
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    background-color: #94b5ae;
+    margin: 0 auto;
 }
 
 #profile-photo{
-  background: url("../images/profilephoto.png") no-repeat center center;
-  background-size: cover;
-  background-position: center;
-    height: 100%;
-  border-radius: 50%;
-
+    background: url("../images/profilephoto.png") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
 }
+
+#profile{
+  padding-top:30px;
+  float: left;
+}
+
+#summary{
+  padding-top:30px;
+  clear both;
+}
+
+
 
 /* ------ EXPERIENCE SECTION ------ */
 
