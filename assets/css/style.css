@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto&display=swap');
 
 *{
-  margin:0;
-  padding:0;
-  border:0;
+    margin:0;
+    padding:0;
+    border:0;
+    font-size: 10px;
 }
 
 body{
-  font-family: Noto Sans JP;
-  color: #777777;
+    font-family: Noto Sans JP;
+    color: #777777;
+}
+
+p, b{
+    font-size: 1.3rem;
 }
 
 h2{
@@ -18,15 +23,22 @@ h2{
 .section-title{
     font-family: Roboto;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    /* border-bottom: 2px solid #94b5ae; */
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     text-decoration: underline;
+}
+
+.dark{
     text-decoration-color: #94b5ae;
 }
 
+.light{
+    text-decoration-color: #ffffff;
+    color: #ffffff;
+}
+
 .container{
-    max-width: 720px;
+    max-width: 72rem;
 }
 
 
@@ -35,14 +47,19 @@ h2{
 #logo{
    font-family: Roboto;
    color: #777777;
+   font-size: 2rem;
+}
+
+.nav-link{
+    font-size: 1.5rem;
 }
 
 .menu a:hover{
-  border-bottom: 0.5px solid #94b5ae
+  border-bottom: 1px solid #94b5ae
 }
 
 .active{
-  border-bottom: 0.5px solid #777777
+  border-bottom: 1px solid #777777
 }
 
 /* ------ HERO IMAGE ------ */
@@ -51,7 +68,7 @@ h2{
 
 
 #hero-image{
-  height: 700px;
+  height: 100vh;
   width: 100%;
   background: url("../images/heroimage.jpg");
   background-repeat: no-repeat;
@@ -59,7 +76,7 @@ h2{
 }
 
 #hero-section{
-  height: 700px;
+  height: 100vh;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -69,18 +86,15 @@ h2{
 
 #hero-text{
     color: #ffffff;
-    font-size: 100%;
+    font-size: 3.5rem;
     font-family: Roboto;
     letter-spacing: 3px;
     text-align: center;
 
-    width: 350px;
-    height: 200px;
+    width: 35rem;
+    height: 15rem;
 
-    padding-top: 30px;
-    padding-left: 25px;
-    padding-bottom: 30px;
-    padding-right: 25px;
+    padding: 2.5rem 2.5rem;
 
     background-color: #94b5ae;
 
@@ -93,22 +107,22 @@ h2{
 }
 
 #hero-text h3{
-    font-size: 120%; 
-    padding-top: 20px;
+    font-size: 1.5rem; 
+    padding-top: 2rem;
 }
 
 #hero-text #resume-text{
-    border-top: 0.5px solid #ffffff;
-    padding-top: 10px;
+    border-top: 1px solid #ffffff;
+    padding-top: 1rem;
     font-style: italic;
 }
 
 /* ------ ABOUT SECTION ------ */
 
 #profile-border{
-    width: 220px;
-    height: 220px;
-    padding: 10px;
+    width: 22rem;
+    height: 22rem;
+    padding: 1rem;
     background-color: #94b5ae;
     margin: 0 auto;
 }
@@ -117,117 +131,39 @@ h2{
     background: url("../images/profilephoto.png") no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 200px;
-    width: 200px;
+    height: 20rem;
+    width: 20rem;
 }
 
 #profile{
-  padding-top:30px;
-  float: left;
+    padding-top: 2.56rem;
+    float: left;
 }
 
 #summary{
-  padding-top:30px;
-  clear both;
+  padding: 3rem 5rem;
+  clear: both;
 }
-
-
 
 /* ------ EXPERIENCE SECTION ------ */
 
-#times{
-  background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  overflow: hidden;
+#experience{
+  background-color: #94b5ae;
+  padding-top: 1rem;
 }
 
-#times div{
-  color: #fafafa;
-  background-color: rgba(0,0,0,0.6);
-  width: 19%;
-  height: 300px;
-  float: left;
-  padding: 30px 0 0 10px;
-  text-align: center;
-  margin: 4px;
+/* ------ SKILLS SECTION ------ */
+
+/* ------ PROJECTS SECTION ------ */
+
+#projects{
+  background-color: #94b5ae;
+  padding-top: 1rem;
 }
 
-#times h2{
-  color: #fafafa;
-}
+/* ------ CONTACT SECTION ------ */
 
-footer{
-  height: 150px;
-}
-
-.social-networks{
-  text-align: center;
-}
-
-.social-networks li{
-  display: inline;
-}
-
-.social-networks i{
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: #777777;
-}
-
-#photos{
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0;
-}
-
-#photos img{
-  width: 100%;
-}
-
-@media screen and (max-width: 1393px){
-  #club-ethos{
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
-  }
-
-  #welcome{
-    padding: 30px 0;
-    margin-top: 0;
-  }
-
-  #left-about, #right-about{
-    width:100%;
-    float: left;
-    padding: 0;
-  }
-
-  #center-about{
-    clear:both;
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-
-  #times div{
-    width: 100%;
-    clear: both;
-    height: 150px;
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #fff;
-    padding: 0;
-  }
-
-  hr{
-    display: none;
-  }
-}
+/* Remember when using media queries to make mobile first (min-width only) */
 
 @media screen and (max-width:943px){
 
