@@ -12,6 +12,7 @@ body{
     color: #777777;
 }
 
+
 p, b{
     font-size: 1.3rem;
 }
@@ -20,10 +21,14 @@ h2{
     text-transform: uppercase;
 }
 
+.info-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .section-title{
     font-family: Roboto;
     text-align: center;
-    margin-top: 4rem;
     margin-bottom: 4rem;
     text-decoration: underline;
 }
@@ -39,6 +44,7 @@ h2{
 
 .container{
     max-width: 72rem;
+    padding: 0rem 5rem;
 }
 
 
@@ -47,7 +53,7 @@ h2{
 #logo{
    font-family: Roboto;
    color: #777777;
-   font-size: 2rem;
+   font-size: 1.75rem;
 }
 
 .nav-link{
@@ -137,11 +143,14 @@ h2{
 
 #profile{
     padding-top: 2.56rem;
-    float: left;
+}
+
+.social-icon{
+    font-size: 160%;
 }
 
 #summary{
-  padding: 3rem 5rem;
+  padding: 3rem 0rem 0rem;
   clear: both;
 }
 
@@ -149,10 +158,23 @@ h2{
 
 #experience{
   background-color: #94b5ae;
-  padding-top: 1rem;
 }
 
 /* ------ SKILLS SECTION ------ */
+
+.skill-headings{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 0.5rem;
+}
+
+.skill-description{
+    padding-left: 5rem;
+}
+
+.fa-circle{
+    color: #94b5ae;
+}
 
 /* ------ PROJECTS SECTION ------ */
 
