@@ -185,6 +185,24 @@ ul li span {
 
 /* ------ CONTACT SECTION ------ */
 
+.center-form{
+    padding-top: 1rem;
+    margin: 0 auto;
+    max-width: 70%;
+    font-size: 1.3rem;
+}
+
+.form-control {
+    font-size: 1.3rem;
+}
+
+button[type="submit"]{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    color: #fafafa;
+    background-color: #94b5ae;
+}
+
 /* Remember when using media queries to make mobile first (min-width only) */
 
 @media screen and (max-width:943px){
