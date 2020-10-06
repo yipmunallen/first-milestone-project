@@ -88,8 +88,6 @@ h2{
   position: relative;
 }
 
-/* ------ COVER TEXT ------ */
-
 #hero-text{
     color: #ffffff;
     font-size: 3.5rem;
@@ -162,14 +160,16 @@ h2{
 
 /* ------ SKILLS SECTION ------ */
 
-.skill-headings{
-    text-align: center;
-    font-style: italic;
-    padding-bottom: 0.5rem;
+.skill-description{
+    white-space: nowrap;
+    list-style-type:none;
 }
 
-.skill-description{
-    padding-left: 5rem;
+ul li span {
+  width: 15rem;
+  height: 3rem;
+  display: inline-block;
+  font-size: 1.5rem;
 }
 
 .fa-circle{
