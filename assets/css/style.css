@@ -177,18 +177,34 @@ ul li span {
 
 /* ------ PROJECTS SECTION ------ */
 
-.project-container{
-    max-width: 120rem;
-}
 
 #projects{
   background-color: #94b5ae;
   padding-top: 1rem;
 }
 
-.card{
+.project-container{
+    max-width: 120rem;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.card-body{
     background-color: #ffffff;
 }
+
+.card-title{
+    color: #777777;
+    text-align: center;
+}
+
+.card-text{
+    color: #777777;
+}
+
 
 /* ------ CONTACT SECTION ------ */
 
