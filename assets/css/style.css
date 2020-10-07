@@ -12,7 +12,6 @@ body{
     color: #777777;
 }
 
-
 p, b{
     font-size: 1.3rem;
 }
@@ -178,9 +177,17 @@ ul li span {
 
 /* ------ PROJECTS SECTION ------ */
 
+.project-container{
+    max-width: 120rem;
+}
+
 #projects{
   background-color: #94b5ae;
   padding-top: 1rem;
+}
+
+.card{
+    background-color: #ffffff;
 }
 
 /* ------ CONTACT SECTION ------ */
@@ -205,7 +212,7 @@ button[type="submit"]{
 
 /* Remember when using media queries to make mobile first (min-width only) */
 
-@media screen and (max-width:943px){
+@media screen and (min-width:768px){
 
   #menu{
     clear: left;
@@ -213,39 +220,5 @@ button[type="submit"]{
     margin-left: 30px;
     margin-bottom: 20px;
     line-height: 25px;
-  }
-
-  #cover-text{
-    left: 0px;
-  }
-
-  #club-ethos{
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-  }
-
-  .left-about-heading, .right-about-heading{
-    width: inherit;
-  }
-
-  .left-about-heading h2, .right-about-heading h2{
-    width: 100%;
-    text-align: center;
-  }
-
-  .left-about-heading p, .right-about-heading p{
-    text-align: center;
-    padding: 0 20px 0 20px;
-  }
-
-  #photos{
-    column-count: 3;
-  }
-}
-
-@media screen and (max-width:800px){
-  #photos{
-    column-count: 2;
   }
 }
