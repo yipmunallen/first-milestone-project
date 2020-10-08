@@ -46,6 +46,14 @@ h2{
     padding: 0rem 5rem;
 }
 
+.wider-container{
+    max-width: 120rem;
+}
+
+
+#experience, #projects{
+  background-color: #94b5ae;
+}
 
 /* ------NAV BAR ------ */
 
@@ -153,8 +161,18 @@ h2{
 
 /* ------ EXPERIENCE SECTION ------ */
 
-#experience{
-  background-color: #94b5ae;
+
+.experience-entry:before{
+    content: attr(experience-title);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
 }
 
 /* ------ SKILLS SECTION ------ */
@@ -177,34 +195,20 @@ ul li span {
 
 /* ------ PROJECTS SECTION ------ */
 
-
-#projects{
-  background-color: #94b5ae;
-  padding-top: 1rem;
+.project-cards{
+    color: #777777;
+    text-align: center;
 }
 
-.project-container{
-    max-width: 120rem;
-}
-
-a:hover
+a.project-cards:hover
 {
     text-decoration: none;
+    color: #94b5ae;
 }
 
 .card-body{
     background-color: #ffffff;
 }
-
-.card-title{
-    color: #777777;
-    text-align: center;
-}
-
-.card-text{
-    color: #777777;
-}
-
 
 /* ------ CONTACT SECTION ------ */
 
