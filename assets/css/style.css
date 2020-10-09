@@ -161,18 +161,52 @@ h2{
 
 /* ------ EXPERIENCE SECTION ------ */
 
+.experience-info{
+    padding: 3em 2em 0em 0em;
+    float: right;
+    position: relative;
+    color: #fafafa;
+    border-right: 1px solid;
+    text-align: right;
+}
 
-.experience-entry:before{
-    content: attr(experience-title);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
+.experience-info:before{
+    content: attr(dates);
     display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 1em;
     padding: 0;
     margin: 0;
+}
+
+.experience-info:after{
+    display: block;
+    float: right;
+    width: 1rem;
+    height: 1rem;
+    top: 1rem;
+    position: absolute;
+    right: -5px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+
+}
+
+.experience-description{
+  padding-top: 1rem;
+  color: #fafafa;
+  position: relative;
+}
+
+@media (max-width:550px){
+  .experience-description{
+      display: none;
+  }
 }
 
 /* ------ SKILLS SECTION ------ */
@@ -242,3 +276,9 @@ button[type="submit"]{
     line-height: 25px;
   }
 }
+
+$(document).ready(function () {
+  $(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});
