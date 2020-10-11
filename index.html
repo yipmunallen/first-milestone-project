@@ -19,7 +19,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse auto menu" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="#about">About</a>
@@ -37,7 +37,7 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="assets/cv/sample-cv.pdf" target="_blank">Download CV</a>
+                    <a class="nav-link" href="assets/cv/curriculum-vitae.pdf" target="_blank">Download CV</a>
                 </li>
             </ul>
       </div>
@@ -83,6 +83,11 @@
                     My hobbies include music and I am a pianist with a diploma in Pianoforte performance. 
                     </p>
                 </div>
+            </div>
+            <div class="row">
+                <a id="download-cv" href="assets/cv/curriculum-vitae.pdf" target="_blank" role="button">
+                    <button type="submit" class="btn btn-success">Download CV</button>
+                </a>
             </div>
         </div>
     </section>
@@ -345,7 +350,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h5 class="text-center">Please get in touch with any enquiries!</h5>
+                    <h4 class="text-center">Please get in touch with any enquiries!</h4>
                     <div class="center-form">
                         <form>
                             <input class="form-control" type="text" name="name" id="fullname" placeholder="Name" required >
@@ -362,12 +367,16 @@
             </div>
         </div>
     </section>
-
-
-
-
+    <!----- Javascripts ----->    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" defer integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+        $(".navbar-nav li a").click(function(event) {
+        $(".navbar-collapse").collapse('hide');
+        });
+        });
+    </script>
   </body>
 </html>

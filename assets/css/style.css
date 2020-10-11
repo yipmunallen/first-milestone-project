@@ -13,7 +13,7 @@ body{
 }
 
 p, b{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 h2{
@@ -21,12 +21,13 @@ h2{
 }
 
 .info-section{
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
 }
 
 .section-title{
     font-family: Roboto;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 4rem;
     text-decoration: underline;
@@ -97,13 +98,12 @@ h2{
 
 #hero-text{
     color: #ffffff;
-    font-size: 3.5rem;
     font-family: Roboto;
     letter-spacing: 3px;
     text-align: center;
 
-    width: 35rem;
-    height: 15rem;
+    width: 33rem;
+    height: 18rem;
 
     padding: 2.5rem 2.5rem;
 
@@ -115,6 +115,11 @@ h2{
     transform: translate(-50%, -50%);
     margin: 0 auto;
 
+}
+
+#hero-text h2{
+    font-size: 3rem; 
+    padding-top: 0.5rem;
 }
 
 #hero-text h3{
@@ -147,7 +152,7 @@ h2{
 }
 
 #profile{
-    padding-top: 2.56rem;
+    padding-top: 1.3rem;
 }
 
 .social-icon{
@@ -155,8 +160,14 @@ h2{
 }
 
 #summary{
-  padding: 3rem 0rem 0rem;
-  clear: both;
+    font-size: 5rem;
+    padding: 3.5rem 0rem 0rem;
+    clear: both;
+}
+
+#download-cv{
+    margin: 0 auto;
+    padding-top: 1.5rem;
 }
 
 /* ------ EXPERIENCE SECTION ------ */
@@ -260,6 +271,7 @@ a.project-cards:hover
 button[type="submit"]{
     margin-top: 1.5rem;
     margin-bottom: 3rem;
+    font-size: 1.5rem;
     color: #fafafa;
     background-color: #94b5ae;
 }
@@ -276,9 +288,3 @@ button[type="submit"]{
     line-height: 25px;
   }
 }
-
-$(document).ready(function () {
-  $(".navbar-nav li a").click(function(event) {
-    $(".navbar-collapse").collapse('hide');
-  });
-});
