@@ -1,41 +1,31 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Personal Resume Website
 
-Welcome yipmunallen,
+This is a personal resume website for Yip Mun Allen. It is designed to be a creative way for prospective recruiters to find out more about the website owner. The responsive nature of the site means that it easy to read on all media devices.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Features
 
-## Gitpod Reminders
+### Projects 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This section is designed to show certain projects that the website owner has worked on. Text giving a summary of the project is paired with an image / screenshot of the project. Both the image and text are links to the website/project that is being described. 
 
-`python3 -m http.server`
+## Technologies Used
 
-A blue button should appear to click: *Make Public*,
+- **HTML5** - Used to structure and present the website
+- **CSS** - Used to style the website
+- **Bootstrap** - This was certain features such as the navbar and project cards. The grid design was also used throughout the sections in order to facilitate the responsive design
+- **JavaScript** - Used for the navbar so that when a link was selected the navbar would collapse again
+- **JQuery** - ??????
 
-Another blue button should appear to click: *Open Browser*.
+## Deployment
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Issues/Bugs
 
-A blue button should appear to click: *Make Public*,
+## Credits
 
-Another blue button should appear to click: *Open Browser*.
+### Media
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+The hero image was downloaded from [Pixabay](https://pixabay.com/photos/desktop-tidy-clean-mockup-white-2325627)
 
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Acknowledgements
+- [Code Institute](https://www.codeinstitute.net/)
+- [Pascal Van Gemert](http://www.pascalvangemert.nl/) - His resume provided the inspiration behind the design of the website

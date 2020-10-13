@@ -57,7 +57,6 @@ h2{
 }
 
 /* ------NAV BAR ------ */
-
 #logo{
    font-family: Roboto;
    color: #777777;
@@ -76,11 +75,8 @@ h2{
   border-bottom: 1px solid #777777
 }
 
+
 /* ------ HERO IMAGE ------ */
-
-/* GOT HERO IMAGE HERE https://pixabay.com/photos/desktop-tidy-clean-mockup-white-2325627 */
-
-
 #hero-image{
   height: 100vh;
   width: 100%;
@@ -134,7 +130,6 @@ h2{
 }
 
 /* ------ ABOUT SECTION ------ */
-
 #profile-border{
     width: 22rem;
     height: 22rem;
@@ -209,15 +204,16 @@ h2{
 }
 
 .experience-description{
-  padding-top: 1rem;
-  color: #fafafa;
-  position: relative;
+    display: none;
 }
 
-@media (max-width:550px){
-  .experience-description{
-      display: none;
-  }
+@media (min-width:550px){
+    .experience-description{
+      padding-top: 1rem;
+      color: #fafafa;
+      position: relative;
+      display: block;
+    }
 }
 
 /* ------ SKILLS SECTION ------ */
@@ -274,17 +270,4 @@ button[type="submit"]{
     font-size: 1.5rem;
     color: #fafafa;
     background-color: #94b5ae;
-}
-
-/* Remember when using media queries to make mobile first (min-width only) */
-
-@media screen and (min-width:768px){
-
-  #menu{
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-  }
 }
