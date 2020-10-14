@@ -3,7 +3,7 @@
 ![alt text](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/websitescreenshot.png "Website Screenshot")
 
 This is a static (front-end) personal resume website for Yip Mun Allen, the creator of the site. It is designed to be a creative way for prospective recruiters to find out more about the website owner. 
-The responsive nature of the site means that it easy to read on all media devices and a single-page design was chosen in order to make it easy to quickly jump 
+The responsive nature of the site means that it can be read on all media devices and a single-page design was chosen in order to make it easy to quickly jump 
 to the sections that the recruiter may be interested in without the need for opening new pages. 
 
 ## Table of Contents
