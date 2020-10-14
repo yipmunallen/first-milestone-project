@@ -71,11 +71,6 @@ h2{
   border-bottom: 1px solid #94b5ae
 }
 
-.active{
-  border-bottom: 1px solid #777777
-}
-
-
 /* ------ HERO IMAGE ------ */
 #hero-image{
   height: 100vh;
