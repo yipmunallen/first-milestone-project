@@ -73,18 +73,18 @@ h2{
 
 /* ------ HERO IMAGE ------ */
 #hero-image{
-  height: 100vh;
-  width: 100%;
-  background: url("../images/heroimage.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background: url("../images/heroimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #hero-section{
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #hero-text{
@@ -92,20 +92,15 @@ h2{
     font-family: Roboto, sans-serif;
     letter-spacing: 3px;
     text-align: center;
-
     width: 33rem;
     height: 18rem;
-
     padding: 2.5rem 2.5rem;
-
     background-color: #94b5ae;
-
     position: absolute; 
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-
 }
 
 #hero-text h2{
@@ -156,7 +151,6 @@ h2{
 }
 
 #download-cv{
-    
     display: inline-block;
     margin: 0 auto;
     padding: 0.7rem 1.6rem;
@@ -165,12 +159,9 @@ h2{
     font-size: 1.5rem;
     text-decoration: none;
     color: #ffffff;
-    
 }
 
-
 /* ------ EXPERIENCE SECTION ------ */
-
 .experience-info{
     padding: 3em 2em 0em 0em;
     float: right;
@@ -204,7 +195,6 @@ h2{
     border-radius: 12px;
     content: '';
     background: #fafafa;
-
 }
 
 .experience-description{
@@ -221,7 +211,6 @@ h2{
 }
 
 /* ------ SKILLS SECTION ------ */
-
 .skill-description{
     white-space: nowrap;
     list-style-type:none;
@@ -239,14 +228,12 @@ ul li span {
 }
 
 /* ------ PROJECTS SECTION ------ */
-
 .project-cards{
     color: #777777;
     text-align: center;
 }
 
-a.project-cards:hover
-{
+a.project-cards:hover{
     text-decoration: none;
     color: #94b5ae;
 }
