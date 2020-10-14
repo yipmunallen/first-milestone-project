@@ -37,7 +37,7 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="assets/cv/curriculum-vitae.pdf" target="_blank">Download CV</a>
+                    <a class="nav-link" href="assets/cv/curriculumvitae.pdf" target="_blank">Download CV</a>
                 </li>
             </ul>
       </div>
@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div class="row">
-                <a id="download-cv" href="assets/cv/curriculum-vitae.pdf" target="_blank" role="button">
+                <a id="download-cv" href="assets/cv/curriculumvitae.pdf" target="_blank" role="button">
                     <button type="submit" class="btn btn-success">Download CV</button>
                 </a>
             </div>
@@ -110,8 +110,7 @@
               <div class="col-sm-8">
                   <div class="experience-description" >
                       <p>Using a bespoke rules-based coding language built on Prolog in order to electronically capture information 
-                        from documents. This includes building environments for new clients based on their requirements as well as 
-                        the day to day maintenance of services.</p>
+                        from documents. This includes building environments for new clients based on their requirements.</p>
                   </div>                 
             </div>   
           </div>
@@ -324,20 +323,20 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-12">
-                    <a class="project-cards" href="http://dcallen.co.uk/" target="_blank">
-                        <img class="card-img-top" src="assets/images/dcallenscreenshot.png" alt="DC Allen Engineering">
+                    <a class="project-cards" href="https://www.cloud-trade.com/" target="_blank">
+                        <img class="card-img-top" src="assets/images/cloudtrade.png" alt="Cloudtrade Technologies Limited">
                         <div class="card-body">
-                          <h4>DC Allen Engineering</h4>
-                          <p>Website created using Wordpress for a Electronic Engineering firm based in Poole, England.</p>
+                          <h4>CloudTrade Technologies Ltd.</h4>
+                          <p>Website created using HTML, CSS and Javascript for a software company in London, England.</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-4 col-12">
-                    <a class="project-cards" href="http://dcallen.co.uk/" target="_blank">
-                        <img class="card-img-top" src="assets/images/dcallenscreenshot.png" alt="DC Allen Engineering">
+                    <a class="project-cards" href="https://www.marriott.co.uk/hotels/travel/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/" target="_blank">
+                        <img class="card-img-top" src="assets/images/thewellesly.png" alt="The Wellesly">
                         <div class="card-body">
-                          <h4>DC Allen Engineering</h4>
-                          <p>Website created using Wordpress for a Electronic Engineering firm based in Poole, England.</p>
+                          <h4>The Wellesly, Knightsbridge</h4>
+                          <p>Website created using HTML, CSS and Javascipt for a hotel in London, England.</p>
                         </div>
                     </a>
                 </div>
@@ -367,7 +366,7 @@
             </div>
         </div>
     </section>
-    
+
     <!----- Javascripts ----->    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" defer integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -375,11 +374,9 @@
 
     <!----- Inline Javascript for collapsing menu button -----> 
     <script>
-        $(document).ready(function () {
-        $(".navbar-nav li a").click(function(event) {
-        $(".navbar-collapse").collapse('hide');
-        });
-        });
+        $(document).on('click',function(){
+           $('.collapse').collapse('hide');
+        })
     </script>
   </body>
 </html>
