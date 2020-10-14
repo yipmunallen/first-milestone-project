@@ -156,9 +156,18 @@ h2{
 }
 
 #download-cv{
+    
+    display: inline-block;
     margin: 0 auto;
-    padding-top: 1.5rem;
+    padding: 0.7rem 1.6rem;
+    border-radius: 0.2rem;
+    background-color: #94b5ae;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    
 }
+
 
 /* ------ EXPERIENCE SECTION ------ */
 
@@ -172,7 +181,7 @@ h2{
 }
 
 .experience-info:before{
-    content: attr(dates);
+    content: attr(data-dates);
     display: block;
     position: absolute;
     right: 2rem;
