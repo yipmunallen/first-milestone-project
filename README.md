@@ -46,7 +46,7 @@ As a recruiter I want to:
 - #### Wireframes
 
   - [Hero Image/About](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/heroabout.png)
-  - [Education](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/education.png)
+  - [Education](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/experience.png)
   - [Skills/Projects](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/skillsprojects.png)
   - [Contact](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/contact.png)
 
@@ -55,7 +55,7 @@ As a recruiter I want to:
   -  [About](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/heroaboutfinal.png) -
 Provides some basic information about the site owner along with a summary written to introduce them.
 
-  - [Experience](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/educationdfinal.png) -
+  - [Experience](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/educationfinal.png) -
 Gives an overview of the owner's work experience and education history.
 
   - [Skills](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/skillsprojectsfinal.png) -
