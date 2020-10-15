@@ -18,7 +18,7 @@ The live project can be viewed [here](https://yipmunallen.github.io/first-milest
       1. [Typography](#typography)
 1. [Technologies](#technologies-used)
    1. [Languages](#languages)
-   1. [Frameworks, Libraries & Programs](#frameworks-libraries-&-programs)
+   1. [Frameworks, Libraries & Programs](#frameworks-libraries-programs)
 1. [Testing](#testing)
    1. [User stories](#testing-user-stories)
    1. [Functionality](#functionality)
@@ -55,7 +55,7 @@ As a recruiter I want to:
   -  [About](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/heroaboutfinal.png) -
 Provides some basic information about the site owner along with a summary written to introduce them.
 
-  - [Experience](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/educationfinal.png) -
+  - [Experience](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/experiencefinal.png) -
 Gives an overview of the owner's work experience and education history.
 
   - [Skills](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/skillsprojectsfinal.png) -
