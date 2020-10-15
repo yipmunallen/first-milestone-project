@@ -170,7 +170,12 @@ The second screenshot in the projects is taken from [CloudTrade](https://cloudtr
 
 The third screenshot in the projects is taken from [The Wellesly](https://www.marriott.co.uk/hotels/travel/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/) , and the website was not actually built by the website owner as stated in the summary.
 
+### Code
+
+- [Code Institute](https://www.codeinstitute.net/) - Code learnt during the Full Stack Web Developer course has be implemented in this project.
+
+- [Stack Overflow](https://stackoverflow.com/questions/21203111/bootstrap-3-collapsed-menu-doesnt-close-on-click) - Used to help menu bar not collapsing.
+
 ### Acknowledgements
 - Spencer Barriball - Mentor 
-- [Code Institute](https://www.codeinstitute.net/) - Code was influenced by techniques learnt during projects within the course.
 - [Pascal Van Gemert](http://www.pascalvangemert.nl/) - His resume provided the inspiration behind the design of the website.
