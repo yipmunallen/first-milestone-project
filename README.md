@@ -2,29 +2,31 @@
 
 ![alt text](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/websitescreenshot.png "Website Screenshot")
 
-This is a static (front-end) personal resume website for Yip Mun Allen, the creator of the site. It is designed to be a creative way for prospective recruiters to find out more about the website owner. 
-The responsive nature of the site means that it easy to read on all media devices and a single-page design was chosen in order to make it easy to quickly jump 
+This is a static (front-end) personal resume website for Yip Mun Allen, the creator of the site. It is designed to be a creative way for prospective recruiters to find out more about the website owner in a bid to potentially hire them. 
+The responsive nature of the site means that it is easy to read on all media devices and a single-page design was chosen in order to make it easy to quickly jump 
 to the sections that the recruiter may be interested in without the need for opening new pages. 
+
+The live project can be viewed [here](https://yipmunallen.github.io/first-milestone-project/).
 
 ## Table of Contents
 1. [Ux](#ux)
    1. [Users stories](#users-stories)
    1. [Design](#design)
       1. [Wireframes](#design)
-      1. [List of Sections](#list-of-sections)
+      1. [Final Sections](#final-sections)
       1. [Colour Scheme](#colour-scheme)
       1. [Typography](#typography)
-      1. [Menu Bar](#menubar)
-1. [Technologies used](#technologies-used)
-   1. [Languages Used](#languages-used)
-   1. [Frameworks, Libraries & Programs Used](#frameworks-libraries-&-programs-used)
+1. [Technologies](#technologies-used)
+   1. [Languages](#languages)
+   1. [Frameworks, Libraries & Programs](#frameworks-libraries-&-programs)
 1. [Testing](#testing)
    1. [User stories](#testing-user-stories)
    1. [Functionality](#functionality)
    1. [Compatibility](#compatibility)
+   1. [Bugs](#bugs)
    1. [Validation](#validation)
-1. [Content](#content)
-1. [Acknowledgements](#acknowledgements)
+1. [Deployment](#deployment)
+1. [Credits](#credits)
 
 ## UX
 
@@ -48,57 +50,55 @@ As a recruiter I want to:
   - [Skills/Projects](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/skillsprojects.png)
   - [Contact](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/contact.png)
 
-- #### List of Sections 
+- #### Final Sections 
 
-  -  __About__ -
+  -  [About](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/heroaboutfinal.png) -
 Provides some basic information about the site owner along with a summary written to introduce them.
 
-  - __Experience__ -
+  - [Experience](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/educationdfinal.png) -
 Gives an overview of the owner's work experience and education history.
 
-  - __Skills__ -
-Highlights some of the core skill of the site owner that recruiters may be looking out for.
+  - [Skills](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/skillsprojectsfinal.png) -
+Highlights some of the core skills of the site owner that recruiters may be looking out for.
 
-  - __Projects__ -
+  - [Projects](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/skillsprojectsfinal.png) -
 Designed to show certain projects that the website owner has worked on. Text giving a summary of the project is paired with an image / screenshot of the project. 
 Both the image and text are links to the website/project that is being described. 
 
-  - __Contact__ -
+  - [Contact](https://github.com/yipmunallen/First-Milestone-Project/blob/master/assets/images/contactfinal.png) -
 Contains a form that allows users to quickly and easily contact the site owner without having to navigate away from the page.
 
 -   #### Colour Scheme
-    -   The two main colours used are white and turqoise. This scheme complements the colours within the hero image and is used to differentiate between the sections, making them easy to identify as you scroll down the page.
+    -   The two main colours used are white and turquoise. This scheme complements the colours within the hero image and is used to differentiate between the sections, making them easy to identify as you scroll down the page.
 
  -   #### Typography
-      -   The main font used throughout the site is "Noto San JP". "Roboto" is also used for the section headings and the name in the hero section as well as the navbar. Sans-serif has been used as the fallback font throughout. These fonts are chosen as they are easy to read and appropriate for a professional look.
+      -   The main font used throughout the site is "Noto San JP". "Roboto" is also used for the section headings and the name in the hero section as well as the menu bar. Sans-serif has been used as the fallback font throughout. These fonts are chosen as they are easy to read and appropriate for a professional look.
 
 ## Technologies Used
 
-### Languages Used
+### Languages
 
-- **HTML5** - Used to structure and present the website.
-- **CSS** - Used to style the website.
-- **JavaScript** - Used for the navbar so that when a link was selected, or the user clicked outside the menu, the navbar would collapse again.
+- [__HTML5__](https://en.wikipedia.org/wiki/HTML5) - Used to structure and present the website.
+- [__CSS__](https://en.wikipedia.org/wiki/CSS) - Used to style the website.
+- [__JavaScript__](https://en.wikipedia.org/wiki/JavaScript) - Used for the menu bar so that when a link is selected, or the user clicks outside the menu, the menu bar will collapse again.
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs
 
-- **Mockflow** - Used to create the wireframes during the planning stage of the project.
+- [__Mockflow__](https://www.mockflow.com/) - Used to create the wireframes during the planning stage of the project.
 
-- **Bootstrap Framework** - This was certain features such as the navbar and project cards. The grid design was also used throughout the sections in order to facilitate the responsive design.
+- [__Bootstrap Framework__](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Used for certain features such as the menu bar and project cards. The grid design was also used throughout the sections in order to facilitate the responsive design.
 
-- **JQuery** - Added with Bootstrap in order to make the navbar responsive.
+- [__JQuery__](https://jquery.com/) - Added with Bootstrap in order to make the menu bar responsive.
 
-- **Google Fonts** - Used to import the "Noto San JP" and "Roboto" fonts used throughout the site.
+- [__Google Fonts__](https://fonts.google.com/) - Used to import the "Noto San JP" and "Roboto" fonts used throughout the site.
 
-- **Font Awesome** - Used to import the linkedin icon used in the About section, and the circles in the Skills section.
+- [__Font Awesome__](https://fontawesome.com/) - Used to import the LinkedIn icon used in the About section, and the circles in the Skills section.
 
-- **Git** - Used for version control.
+- [__Git__](https://git-scm.com/) - Used for version control.
 
-- **Github** - Used to store all website code once pushed from Git.
+- [__Github__](https://github.com/) - Used to store all website code once pushed from Git.
 
 ### Testing
-
-The W3C Markup Validator and W3C CSS Validator Services were used to identify any syntax errors in the project
 
 #### User Stories
 
@@ -110,24 +110,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to identify an
    2. The section is clearly divided into "Work" and "Education".
    3. The design of this section provides a clear timeline to all prospective users, with additional information available for wider screen sizes.
 1. As a recruiter I want to clearly see what the creator's skills are in order to match them to a suitable role.
-   1. The skills section is accessible from the menu bar.
-   2. The skills section of the site uses coloured circles to clearly indicate skill level
+   1. The Skills section is accessible from the menu bar.
+   2. The Skills section of the site uses coloured circles to clearly indicate skill level.
 1. As a recruiter I want to have access to a CV that can be saved offline.
    1. A "Download CV" button is available wherever the user is on the site via the menu bar. It opens in another page so the original site is not lost.
    2. A "Download CV" button is also available in the About section.
 1. As a recruiter I want to be able to contact the creator with potential opportunities.
-   1. The contact section is accessible from the menu bar.
-   2. The form in the contact section means that the user does not have to leave the site in order to contact the site owner. 
+   1. The Contact section is accessible from the menu bar.
+   2. The form in the Contact section means that the user does not have to leave the site in order to contact the site owner. 
    3. A link to the site owner's LinkedIn profile is in the About section which provides another means of contact.
 
 #### Functionality
 
-  - __Contact Form__ - This has been tested to ensure that if the "submit" button is selected without any of the fields being filled, an error will appear asking the user to complete fields. Similarly, if an email address is inputted without an "@" sign, an error will also appear, stating that this is not a valid email.
+  - __Contact Form__ - This has been tested to ensure that if the "submit" button is selected with some fields left unfilled, an error will appear asking the user to complete the unfilled fields. Similarly, if an email address is inputted without an "@" sign, an error will also appear, stating that this is not a valid email.
 
   - __Links__ - The "Download CV" button, LinkedIn icon, and Project cards have been tested to ensure they open in new windows to valid pages.
 
 
-  - __Menubar__ - The menu bar has been tested to ensure that it collapses and takes users to the correct sections on the page once a link is clicked. Users can also close the menu bar by clicking out of the menu.
+  - __Menu Bar__ - The menu bar has been tested to ensure that it collapses and takes users to the correct sections on the page once a link is clicked. Users can also close the menu bar by clicking out of the menu.
 
 #### Compatibility
 
@@ -139,14 +139,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to identify an
 
   - __Iphone 5__ - When emulating using the website on an Iphone 5, a white strip appears down the right side of the screen. However, this could be due to the browser's emulation of the device. Structure and functionality remain the same. 
 
-  - __Menubar__ - Whilst the menu bar collapses once a link or somewhere outside the bar is clicked, clicking on the hamburger icon once inside the menu does not collapse it again. 
+  - __Menu Bar__ - The menu bar did not collapse once a link was clicked, this was resolved using the JavaScript at the end of the HTML file. Whilst the menu bar collapses once a link or somewhere outside the bar is clicked, clicking on the hamburger icon once inside the menu still does not collapse it again. 
 
 
 #### Validation
 
   - __CSS__ - Validated using [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input) with no errors found.
 
-  - __HTML__ - Whilst the menu bar collapses once a link or somewhere outside the bar is clicked, clicking on the hamburger icon once inside the menu does not collapse it again. 
+  - __HTML__ - Validated using [W3C](https://validator.w3.org/#validate_by_input) with no errors found.
+
+## Deployment
+
+### Github Pages
+
+This project has been deployed to Github Pages using the following steps:
+
+1. Log in to Github and find the Github Repository.
+1. Locate the repository settings.
+1. Locate the GitHub Pages Section.
+1. Below "Source", click the dropdown headed "None" and select the "Master Branch" and then "Save".
+1. Once the page refreshes, scroll back down to the same section, and the site link is now available.
 
 ## Credits
 
@@ -154,12 +166,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to identify an
 
 The hero image was downloaded from [Pixabay](https://pixabay.com/photos/desktop-tidy-clean-mockup-white-2325627).
 
-The second screenshot in the projects is taken from [CloudTrade](https://cloudtrade.com), and the website was not actually built by myself.
+The second screenshot in the projects is taken from [CloudTrade](https://cloudtrade.com), and the website was not actually built by the website owner as stated in the summary.
 
-The third screenshot in the projects is taken from [The Wellesly](https://www.marriott.co.uk/hotels/travel/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/) and the website 
-was not actually built by myself.
+The third screenshot in the projects is taken from [The Wellesly](https://www.marriott.co.uk/hotels/travel/lonwb-the-wellesley-knightsbridge-a-luxury-collection-hotel-london/) , and the website was not actually built by the website owner as stated in the summary.
 
 ### Acknowledgements
 - Spencer Barriball - Mentor 
-- [Code Institute](https://www.codeinstitute.net/)
+- [Code Institute](https://www.codeinstitute.net/) - Code was influenced by techniques learnt during projects within the course.
 - [Pascal Van Gemert](http://www.pascalvangemert.nl/) - His resume provided the inspiration behind the design of the website.
